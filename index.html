@@ -3,43 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agric Project</title>
-  <link rel="stylesheet" href="style.css"> <!-- optional external stylesheet -->
+  <title>Agrifarm Uganda</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header Section -->
+  <!-- Navigation -->
   <header>
-    <h1>Welcome to Agric Project</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="contact.html">Contact</a></li>
+    <nav class="navbar">
+      <div class="logo">Agrifarm Uganda</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Main Content -->
-  <main>
-    <section>
-      <h2>Our Mission</h2>
-      <p>We aim to promote sustainable agriculture and provide resources for farmers and communities.</p>
-    </section>
+  <!-- Hero Section with GIF -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Growing Uganda, One Seed at a Time</h1>
+      <p>Seedlings • Fertilisers • Agri-Chemicals</p>
+      <a href="#products" class="btn">Explore Products</a>
+    </div>
+  </section>
 
-    <section>
-      <h2>Featured Products</h2>
-      <ul>
-        <li>Organic Fertilizer</li>
-        <li>Improved Seeds</li>
-        <li>Farming Tools</li>
-      </ul>
-    </section>
-  </main>
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We provide high-quality seedlings, fertilisers, and agri-chemicals to support sustainable farming in Uganda.</p>
+  </section>
 
-  <!-- Footer Section -->
+  <!-- Products Section -->
+  <section id="products">
+    <h2>Our Products</h2>
+    <ul>
+      <li>Seedlings</li>
+      <li>Fertilisers</li>
+      <li>Agri-Chemicals</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@agrifarmug.com</p>
+    <p>Phone: +256 700 000 000</p>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2026 Agric Project. All rights reserved.</p>
+    <p>&copy; 2026 Agrifarm Uganda Limited</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
